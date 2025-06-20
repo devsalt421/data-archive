@@ -2,7 +2,7 @@
 
 test
 https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-archive
-
+https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user
 hello
 
 # Node install 
