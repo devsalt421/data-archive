@@ -50,12 +50,8 @@ prompt_context() {
 
 https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-win-amd64&_gl=1*2xwtjj*_ga*MTI3NzU2Njk3OS4xNzUwMzkxNDUw*_ga_XJWPQMJYHQ*czE3NTAzOTE0NDkkbzEkZzEkdDE3NTAzOTE0NTMkajU2JGwwJGgw
 
-https://drive.google.com/file/d/14J1MAMdy2THFK9wdTvkX3UJBdrrfwTSV/view?usp=sharing, 
-https://drive.google.com/file/d/1FnQ30PqbqGLpAJCSWWKusG8cirO5IVCX/view?usp=sharing, 
-https://drive.google.com/file/d/1X2UqAUBDpokgMZK3fC23V5HFkuHPdyIt/view?usp=sharing, 
-https://drive.google.com/file/d/1Y8oUIggFqHpscmV2gcvx0Y53MTjScY7w/view?usp=sharing, 
-https://drive.google.com/file/d/1nbFV8uxVUaq11WfEO0AkiSgxioIfYi4x/view?usp=sharing, 
-https://drive.google.com/file/d/1svab-PP2HXe9iVtNo2SG6iMwzueuDmfa/view?usp=sharing
+wget –no-check-certificate "https://docs.google.com/uc?export=download&id=14J1MAMdy2THFK9wdTvkX3UJBdrrfwTSV" -O "docker.z01"
+
 
 
 
