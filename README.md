@@ -53,7 +53,13 @@ qMjPtQzjP472cHSi8ud25mcAbEBmKW0Pe
 
 
 
+source ~/.aliases
 
+alias alall="grep 'alias al' ~/.aliases"
+alias alaws="grep 'alias alaws' ~/.aliases"
+
+alias alaws_list="aws configure list-profiles"
+alias alaws_stat="aws sts get-caller-identity"
 
 
 
