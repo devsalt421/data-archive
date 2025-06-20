@@ -50,13 +50,7 @@ prompt_context() {
 
 https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-win-amd64&_gl=1*2xwtjj*_ga*MTI3NzU2Njk3OS4xNzUwMzkxNDUw*_ga_XJWPQMJYHQ*czE3NTAzOTE0NDkkbzEkZzEkdDE3NTAzOTE0NTMkajU2JGwwJGgw
 
-wget –no-check-certificate "https://docs.google.com/uc?export=download&id=14J1MAMdy2THFK9wdTvkX3UJBdrrfwTSV" -O "docker.z01"
-
-wget –no-check-certificate "https://docs.google.com/uc?export=download&id=1Y8oUIggFqHpscmV2gcvx0Y53MTjScY7w" -O "docker.z02"
-
-wget –no-check-certificate "https://docs.google.com/uc?export=download&id=1nbFV8uxVUaq11WfEO0AkiSgxioIfYi4x" -O "docker.z03"
-
-wget –no-check-certificate "https://docs.google.com/uc?export=download&id=PP2HXe9iVtNo2SG6iMwzueuDmfa" -O "docker.z04"
+wget –no-check-certificate "https://docs.google.com/uc?export=download&id=1svab-PP2HXe9iVtNo2SG6iMwzueuDmfa" -O "docker.z04"
 
 wget –no-check-certificate "https://docs.google.com/uc?export=download&id=1FnQ30PqbqGLpAJCSWWKusG8cirO5IVCX" -O "docker.z05"
 
