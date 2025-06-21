@@ -8,10 +8,6 @@ wget –no-check-certificate "https://docs.google.com/uc?export=download&id=1Ix-
 wget –no-check-certificate "https://docs.google.com/uc?export=download&id=14SY75z3mo194cnTLPHW23J9laeKLHxaa" -O "de.z02"
 
 
-
-MjPtQzjP472cHSi8ud25mcAbEBmKW0P
-
-
-
+wget –no-check-certificate "https://docs.google.com/uc?export=download&id=1FNnjoLBcANzjtVuhPDsiuTv-zD7MJN7C" -O "cdk-packages.zip"
 
 
