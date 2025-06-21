@@ -5,9 +5,6 @@ wget –no-check-certificate "https://docs.google.com/uc?export=download&id=파�
 ---
 
 wget –no-check-certificate "https://docs.google.com/uc?export=download&id=1Ix-NKGyZTMVs-ooVzVZ9gW2-DcO9-rgi" -O "de.z01"
-wget –no-check-certificate "https://docs.google.com/uc?export=download&id=14SY75z3mo194cnTLPHW23J9laeKLHxaa" -O "de.z02"
 
 
-wget –no-check-certificate "https://docs.google.com/uc?export=download&id=1FNnjoLBcANzjtVuhPDsiuTv-zD7MJN7C" -O "cdk-packages.zip"
-
-
+wget –no-check-certificate "https://docs.google.com/uc?export=download&id=1FNnjoLBcANzjtVuhPDsiuTv-zD7MJN7C" -O "de.z02"
