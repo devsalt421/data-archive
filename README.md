@@ -22,5 +22,58 @@ wget --load-cookies cookies.txt \
 
 rm -f cookies.txt
 
+arn:aws:iam::523221107702:role/aws-reserved/sso.amazonaws.com/ap-northeast-2/AWSReservedSSO_ps-Admin-predef_3b0aa053c0ce074d
+
+
+AdministratorAccess (Policy name)
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "*",
+            "Resource": "*"
+        }
+    ]
+}
+
+AwsSSOInlinePolicy
+{
+    "Statement": [
+        {
+            "Action": "aws-portal:ViewBilling*",
+            "Effect": "Allow",
+            "Resource": "*"
+        },
+        {
+            "Action": "*",
+            "Condition": {
+                "Bool": {
+                    "aws:ViaAWSService": "false"
+                },
+                "NotIpAddress": {
+                    "aws:SourceIp": [
+                        "15.164.58.36/32",
+                        "52.78.134.62/32"
+                    ]
+                }
+            },
+            "Effect": "Deny",
+            "Resource": "*"
+        },
+        {
+            "Action": [
+                "iam:CreateUser",
+                "iam:CreateAccesskey",
+                "iam:AddUserToGroup",
+                "iam:CreateGroup"
+            ],
+            "Effect": "Deny",
+            "Resource": "*"
+        }
+    ],
+    "Version": "2012-10-17"
+}
+
 
 
