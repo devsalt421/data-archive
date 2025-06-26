@@ -1,0 +1,89 @@
+{
+	    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:523221107702:task-definition/lgu-backend-task:1",
+	        "containerDefinitions": [
+			        {
+					            "name": "web",
+						                "image": "195275676720.dkr.ecr.ap-northeast-2.amazonaws.com/lgu-backend:latest",
+								            "cpu": 0,
+									                "portMappings": [
+												                {
+															                    "containerPort": 8000,
+																	                        "hostPort": 8000,
+																				                    "protocol": "tcp"
+																						                    }
+																								                ],
+																										            "essential": true,
+																											                "environment": [
+																														                {
+																																	                    "name": "APP_NAME",
+																																			                        "value": "LGUPlus Agent"
+																																						                },
+																																								                {
+																																											                    "name": "API_PREFIX",
+																																													                        "value": "/api/v1"
+																																																                },
+																																																		                {
+																																																					                    "name": "PRODUCTION",
+																																																							                        "value": "True"
+																																																										                }
+																																																												            ],
+																																																													                "mountPoints": [],
+																																																															            "volumesFrom": [],
+																																																																                "logConfiguration": {
+																																																																			                "logDriver": "awslogs",
+																																																																					                "options": {
+																																																																								                    "awslogs-group": "/ecs/lgu-app",
+																																																																										                        "awslogs-region": "ap-northeast-2",
+																																																																													                    "awslogs-stream-prefix": "backend"
+																																																																															                    }
+																																																																																	                },
+																																																																																			            "systemControls": []
+																																																																																				            }
+																																																																																					        ],
+																																																																																						    "family": "lgu-backend-task",
+																																																																																						        "taskRoleArn": "arn:aws:iam::523221107702:role/LguAppBackendTaskRole",
+																																																																																							    "executionRoleArn": "arn:aws:iam::523221107702:role/LguAppECSTaskExecutionRole",
+																																																																																							        "networkMode": "awsvpc",
+																																																																																								    "revision": 1,
+																																																																																								        "volumes": [],
+																																																																																									    "status": "ACTIVE",
+																																																																																									        "requiresAttributes": [
+																																																																																											        {
+																																																																																													            "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+																																																																																														            },
+																																																																																															            {
+																																																																																																	                "name": "ecs.capability.execution-role-awslogs"
+																																																																																																			        },
+																																																																																																				        {
+																																																																																																						            "name": "com.amazonaws.ecs.capability.ecr-auth"
+																																																																																																							            },
+																																																																																																								            {
+																																																																																																										                "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+																																																																																																												        },
+																																																																																																													        {
+																																																																																																															            "name": "com.amazonaws.ecs.capability.task-iam-role"
+																																																																																																																            },
+																																																																																																																	            {
+																																																																																																																			                "name": "ecs.capability.execution-role-ecr-pull"
+																																																																																																																					        },
+																																																																																																																						        {
+																																																																																																																								            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+																																																																																																																									            },
+																																																																																																																										            {
+																																																																																																																												                "name": "ecs.capability.task-eni"
+																																																																																																																														        }
+																																																																																																																															    ],
+																																																																																																																															        "placementConstraints": [],
+																																																																																																																																    "compatibilities": [
+																																																																																																																																	            "EC2",
+																																																																																																																																		            "FARGATE"
+																																																																																																																																			        ],
+																																																																																																																																				    "requiresCompatibilities": [
+																																																																																																																																					            "FARGATE"
+																																																																																																																																						        ],
+																																																																																																																																							    "cpu": "512",
+																																																																																																																																							        "memory": "1024",
+																																																																																																																																								    "registeredAt": "2025-06-25T02:34:38.816Z",
+																																																																																																																																								        "registeredBy": "arn:aws:sts::523221107702:assumed-role/AWSReservedSSO_ps-Admin-predef_3b0aa053c0ce074d/devdbn@lgupluspartners.co.kr",
+																																																																																																																																									    "tags": []
+}
